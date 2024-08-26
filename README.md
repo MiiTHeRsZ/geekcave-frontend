@@ -1,31 +1,36 @@
-# Minha Coleção de Obras da Cultura Pop - Geek Cave
-<!-- ![Logo do Projeto](caminho_para_o_logo.png) -->
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Este projeto é uma aplicação para os amantes da cultura pop. Se você é fã de animes, games, manhwas, mangás e séries, esta plataforma é perfeita para você!
+## Getting Started
 
-## Funcionalidades
-- Crie sua própria coleção virtual e adicione todas as obras que você já assistiu, leu ou jogou.
-- Acompanhe seu progresso, mantendo registros detalhados dos episódios ou capítulos em que parou em cada obra.
-- Utilize recursos de busca avançada para encontrar rapidamente as obras de seu interesse.
-- Explore diferentes categorias e gêneros para descobrir novas obras emocionantes.
+First, run the development server:
 
-## Como Usar
-1. Faça o download do repositório para sua máquina local.
-2. Instale as dependências necessárias executando o comando `npm install`.
-3. Inicie a aplicação executando o comando `npm start`.
-4. Acesse a aplicação em seu navegador através do endereço `http://localhost:8080`.
-5. Crie uma conta de usuário e comece a adicionar suas obras favoritas à sua coleção.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Contribuição
-Contribuições são bem-vindas! Se você tem alguma ideia para melhorar esta aplicação, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Equipe
-- Gustavo Leme - Desenvolvedor principal e criador do projeto.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Contato
-Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato conosco através do email gustavo_leme05@hotmail.com.
+## Learn More
 
-Espero que goste da aplicação e aproveite para organizar sua coleção de obras da cultura pop. Divirta-se!
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
