@@ -3,8 +3,11 @@ import "./globals.css";
 import { GeistSans } from 'geist/font/sans';
 
 export const metadata: Metadata = {
-	title: "Geek Cave",
-	description: "Develope by Gusta MiiTHeRsZ",
+	title: {
+		template: "%s || Geek Cave",
+		default: "Geek Cave"
+	},
+	description: "Developed by Gusta MiiTHeRsZ",
 };
 
 export default function RootLayout({

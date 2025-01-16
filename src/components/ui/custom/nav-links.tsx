@@ -10,16 +10,46 @@ const links = [
         href: '/home',
         icon: "HomeIcon"
     },
+    /* {
+        name: 'Film',
+        href: '/home/films',
+        icon: "UserGroupIcon"
+    },
+    {
+        name: 'Animation',
+        href: '/home/animations',
+        icon: "UserGroupIcon"
+    },
+    {
+        name: 'Animation Serie',
+        href: '/home/animation_series',
+        icon: "UserGroupIcon"
+    },
+    {
+        name: 'Serie',
+        href: '/home/series',
+        icon: "UserGroupIcon"
+    }, */
     {
         name: 'Anime',
-        href: '/home/anime',
+        href: '/home/animes',
         icon: "DocumentDuplicateIcon",
+    },
+    /* {
+        name: 'Anime Film',
+        href: '/home/anime_films',
+        icon: "UserGroupIcon"
     },
     {
         name: 'Game',
-        href: '/home/Game',
+        href: '/home/games',
         icon: "UserGroupIcon"
     },
+    {
+        name: 'Manga',
+        href: '/home/mangas',
+        icon: "UserGroupIcon"
+    }, */
 ];
 
 export default function NavLinks() {
